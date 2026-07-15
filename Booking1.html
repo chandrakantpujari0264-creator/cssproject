@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking-Travel And Tourism</title>
+</head>
+<body bgcolor="lightblue">
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: medium;
+            font-weight: bold;
+            font-style: italic;
+        }
+    </style>
+
+    <table border="1" cellpadding="10" cellspacing="0" align="center" width="100%">
+        <tr>
+            <td align="center">
+                <h1>Booking Form</h1>
+                <marquee behavior="scroll" direction="left" scrollamount="14">Book Your Stay and Travel with Ease!</marquee>
+            </td>
+        </tr>
+    </table>
+
+    <br> <br>
+
+    <table border="1" width="100%" bgcolor="lightyellow">
+        <tr align="center">
+            <td> <a href="index.html">Home</a> </td>
+            <td><a href="Destinations.html">Destination</a></td>
+            <td><a href="Booking1.html">Booking1</a></td>
+            <td><a href="contact.html">Contact</a></td>
+            <td><a href="gallery.html">Gallery</a></td>
+        </tr>
+    </table>
+
+    <br> <br>
+
+    <center>
+        <form>
+            <table border="1" cellpadding="10" cellspacing="0" bgcolor="white">
+
+                <tr>
+                    <th colspan="2">Booking Information</th>
+                </tr>
+
+                <tr>
+                    <td>Full Name:</td>
+                    <td><input type="text" name="name" placeholder="Enter Your Name"></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="email" name="email" placeholder="Enter Your Email"></td>
+                </tr>
+
+                <tr>
+                    <td>Phone Number:</td>
+                    <td><input type="tel" name="phone" placeholder="Enter Your Phone Number"></td>
+                </tr>
+
+                <tr>
+                    <td>Destination:</td>
+                    <td>
+                        <select name="destination">
+                            <option value="goa">Goa</option>
+                            <option value="jaipur">Jaipur</option>
+                            <option value="varanasi">Varanasi</option>
+                            <option value="manali">Manali</option>
+                            <option value="andaman">Andaman Islands</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Travel Date</td>
+                    <td> <input type="date" name="travel_date"> </td>
+                </tr>
+
+                <tr>
+                    <td>Number of Travelers</td>
+                    <td><input type="number" name="travelers" min="1" value="1"></td>
+                </tr>
+
+                <tr>
+                    <td>Accommadation</td>
+                    <td><input type="radio" name="accommodation" value="hotel"> Hotel<br>
+                        <input type="radio" name="accommodation" value="resort"> Resort<br>
+                        <input type="radio" name="accommodation" value="homestay"> Homestay
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Facilitties</td>
+                    <td>
+                        <input type="checkbox" name="facilities" value="breakfast"> Breakfast<br>
+                        <input type="checkbox" name="facilities" value="airport_pickup"> Airport <br>
+                        <input type="checkbox" name="facilities" value="sightseeing"> Sightseeing
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Special Requests</td>
+                    <td><textarea name="special_requests" rows="4" cols="50" placeholder="Any special requests?"></textarea></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" value="Submit Booking">
+                        <input type="reset" value="Reset Form">
+                    </td>
+                </tr>
+
+            </table>
+        </form>
+    </center>
+
+    <br> <br>
+
+    <table border="1" cellpadding="10" cellspacing="0" align="center" width="100%">
+        <tr>
+            <td align="center">
+                <p>2026 Travel And Tourism| All Rights Reserved</p>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>

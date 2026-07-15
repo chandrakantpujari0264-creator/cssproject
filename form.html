@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Form Page</title>
+
+</head>
+<body> <div align="center">
+  <style>
+    body{
+      background-color: cadetblue;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: large;
+      font-weight: bold;
+      font-style: italic;
+    }
+  </style>
+ <h2>Form Page</h2> <br> <hr>
+  <form action="sagar" method="post">
+     
+  <b>Name:</b> <input type="text" name="name" placeholder="Enter your name" required> <br> <br>
+
+    <b>Date of Birth:</b> <input type="date" name="Date of birth" placeholder="Enter Your Date of birth requird"> <br> <hr>
+
+   <b>Gender:</b> <input type="radio" name="gender" value="male" required> Male  
+   <input type="radio" name="gender" value="female" required> Female  
+   <input type="radio" name="gender" value="other" required> Other <br> <hr>
+
+    <b>Tech Known:</b>  <input type="checkbox" name="Tech Known" value="Python"> Python
+   <input type="checkbox" name="Tech Known" value="Java"> Java
+   <input type="checkbox" name="Tech Known" value="C++"> C++
+   <input type="checkbox" name="Tech Known" value="JavaScript"> JavaScript 
+   <input type="checkbox" name="Tech Known" value="HTML"> HTML
+   <input type="checkbox" name="Tech Known" value="CSS"> CSS <br> <hr>
+
+  <b>Country_Name:</b> <select name="country" id="country">
+    <option value="">Select your country</option>
+    <option value="usa">United States</option>
+    <option value="canada">Canada</option>
+    <option value="uk">United Kingdom</option>
+    <option value="australia">Australia</option>
+    <option value="india">India</option>
+
+
+  </select> <br> <br>
+
+  <textarea name="address" id="address" placeholder="Enter your address" rows="10" cols="50"></textarea> <br> <br>
+
+  <button type="submit">Submit</button>
+
+
+  </form>
+
+</div>
+ 
+    
+</body>
+</html>
